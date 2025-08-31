@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="drop-down">
+    <img src="yoga-site-button.png" height="60px">
+    <div class="drop-down-content">
+      <a href="index.html" class="menu-link">Home</a>
+      <a href="schedule-a-yoga-class.html" class="menu-link">Schedule</a>
+      <a href="yoga-video-lessons.html" class="menu-link">Media</a>
+      <a href="about-yoga-classes.html" class="menu-link">About</a>
+      <a href="contact-yoga-instructor.html" class="menu-link">Contact</a>
+    </div>
+  </div>
+  </header>
+
+    <section class="content hero">
+        <h2>Yoga Classes in Newton Iowa</h2>
+        <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0AblPyLX1XIuYTIah8K528gQzcXCTFIHFxe4j0vJCq3lVtjvdlS9FG04vbkVf778IoKKdAReqd?gv=true',
+      color: '#D81B60',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Givens Yoga Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
