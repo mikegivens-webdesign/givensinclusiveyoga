@@ -31,7 +31,14 @@ header {
 .menu-link {
     color: var(--font-color);
     text-decoration: none;
-    margin: 10px;
+    margin: 20px;
+}
+
+.box-in-drop-down {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--primary-color);
+    background: rgb(177, 34, 34);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.477);
 }
 
 .drop-down {
@@ -47,7 +54,7 @@ header {
     z-index: 1;
     padding: 12px 16px;
     min-width: 100px;
-    min-height: 150px;
+    background: maroon;
 }
 
 .drop-down:hover .drop-down-content {
