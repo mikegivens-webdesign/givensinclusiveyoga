@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #9f2a47;
+    --primary-color: #721f1f;
     --secondary-color: rgb(236, 245, 254);
     --accent-color: #4a1919;
     --background-color: rgb(248, 249, 250);
     --font-color: rgb(2, 4, 6);
-    --secondary-font-color: rgb(104, 32, 33);
+    --secondary-font-color: rgba(255, 255, 255, 0.221);
     --font-family: "TASA Orbiter", sans-serif;
     --border-radius: 8px;
 }
@@ -27,9 +27,9 @@ header {
 #header-title {
     position: absolute;
     font-weight: 400;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: var(--secondary-font-color);
-    margin: 7px 0 0 85px;
+    margin: 10px 0 0 80px;
 }
 
 #selector-button {
