@@ -113,6 +113,35 @@ header {
     font-weight: 300;
 }
 
+.picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.panorama-image {
+    width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.responsive-image {
+    max-width: 40vw;
+    flex: 1 1 30vw;
+    max-height: 32vh;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#last-image {
+    width: 100%;
+    max-width: none;
+}
+
 footer {
     color: var(--accent-color);
     padding: 5px;
